@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+    
+<!-- title of webpage -->
+<title>My First Website</title>
+
+<!-- name banner at top -->
+<div class="topbanner" style="padding:2px; text-align:center;">
+    <div class="banner-content">
+        <p>Jonathan Kutsch</p>
+    </div>
+    </div>
+
+<style>
+    .topbanner {
+        padding: 15px;
+        text-align:center;
+        background:#222f79;
+        color: white;
+        font-size: 30px;
+    }
+</style>
+
+<div class="nav">
+    <a href="main.html">Home Page</a>
+    <a class="active" href="projects.html">My Projects</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<style>
+    .nav {
+        background-color: none; 
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .nav a {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 24px;
+    }
+    .nav a:hover {
+        background-color: #ddd;
+        color: white;
+    }
+    .nav a.active {
+        background-color: #C0C0C0;
+        color: black;
+        
+    }
+</style>
+
+    <!-- start of projects -->
+
+    <div class="project6">
+        <h3 style="font-size: 48px; font-weight:bolder; color: navy; text-align:center">Dansby Swanson Hitting Development</h3>
+        <h3 style="text-align:center; font-size: 28px; margin-bottom: 0;">August 4, 2020</h3>
+        <img src="IMG_0461.jpg"
+        alt="Dansby Swanson Hitting Development"
+        style="height: 75%; width: 75%; margin-top: 0;"
+        class="center">
+        <p style="font-size: 32px; text-align:justify; margin-left: 50px; margin-right: 50px">
+            Dansby Swanson is one of my favorite shortstops that I've been watching since his early college days at Vanderbilt. This project dives into his hitting development over the last
+            few seasons in terms of Batted Ball Profile and xwOBAcon. First, xwOBAcon is a metric that calculates the Expected Weighted On-Base Average on Contact. This is based on
+            three variables: exit velocity, launch angle, and sprint speed. The more barrels a player catches means the better launch angle and higher exit velocity produced. A coach can
+            tell their player to focus on the quality of the at-bat, but now we can narrow into the quality of the hit. I implement this metric in correlation to Dansby's batted ball profile. 
+            Going into the 2020 season I noticed he changed his approach at the plate. He began taking the ball to the opposite field more consistently. In the graphic above, it is clear
+            that he made an adjustment after the 2019 season to reduce pulling, which directly increased straight/opposite field percentage as well as a dramatically increased xwOBACon.  
+        </p>
+        <hr
+        style="border: 4px solid navy;
+        border-radius: 2px;
+        margin-top: 5%">
+    
+        <div class="project5">
+        <h3 style="font-size: 48px; font-weight:bolder; color: navy; text-align:center">The Impact Shift Has on Runs Saved</h3>
+        <h3 style="text-align:center; font-size: 28px; margin-bottom: 0;">May 25, 2020</h3>
+        <img src="IMG_0460.jpg"
+        alt="DRS vs Shift %"
+        style="height: 75%; width: 75%; margin-top: 0;"
+        class="center">
+        <p style="font-size: 32px; text-align:justify; margin-left: 50px; margin-right: 50px">
+            In this project, I am comparing each team's shift percentage to their defensived runs saved (DRS). As we can see in 2019, nearly half of the league shifted less than 20%
+            of the time. The goal is to shift at the most optimal rate and save the most amound of runs. Baltimore needs to make adjustments defensively because they
+            have the third highest shift percentage at 42.8% and the lowest runs saved at -95. The team that saves the most runs is often the team that makes it the farthest in the 
+            postseason. Now this isn't always the case, but it is critical to play with a strategy to give your team the advtange over the opponent.
+        </p>
+        <hr
+        style="border: 4px solid navy;
+        border-radius: 2px;
+        margin-top: 5%">
+    
+        <div class="project4">
+        <h3 style="font-size: 48px; font-weight:bolder; color: navy; text-align:center">Gerrit Cole Fastball Development</h3>
+        <h3 style="text-align:center; font-size: 28px; margin-bottom: 3%;">May 25, 2020</h3>
+        <div class="row">
+            <div class="column">
+                <img src="spinrate_vs_vertmove.JPG"
+                alt="Gerrit Cole Spin Rate vs Vertical Movement"
+                style="width: 1600px; margin-top: 0;">
+            </div>
+            <div class="column">
+                <img src="spinrate_vs_whiff.JPG"
+                alt="Gerrit Cole Spin Rate vs Whiff %"
+                style="width: 1600px; margin-top: 2%">
+            </div>
+        </div>
+        <p style="font-size: 32px; text-align:justify; margin-left: 50px; margin-right: 50px">
+            The million dollar arm of the decade belongs to Gerrit Cole, who has the highest contract of any pitcher with $324 Million over 8 years.
+            Cole was drafted #1 overall in 2011 by the Pirates where he produced average metrics before being traded to the Astros. He was traded to the Astros after the 2017 season
+            and you can tell from the visuals above that this was the moment where he began to suceed. Velocity was not his issue, it was the spin rate that led to his sucess on the mound.
+            While on the Astros, Justin Verlander adjusted his vertical release point as well as the spin axis of his fastball. These minor adjustments helped Cole drastically increase his spin
+            rate leading to more vertical movement and a higher whiff percentage. 
+        </p>
+        <hr
+        style="border: 4px solid navy;
+        border-radius: 2px;
+        margin-top: 5%;
+        margin-bottom: 5%;">
+        </div>
+    
+        <style>
+        .row {
+            display: flex;
+        }
+    
+        .column {
+            flex: auto;
+            padding: 5px;
+        }
+        </style>
+    
+        <div class="project3">
+        <h3 style="font-size: 48px; font-weight:bolder; color: navy; text-align:center">Fernando Tatis Jr. Fielding OAA vs League Best 2019</h3>
+        <h3 style="text-align:center; font-size: 28px; margin-bottom: 3%;">April 3, 2020</h3>
+        <div class="row">
+            <div class="column">
+                <img src="IMG_0177.jpg"
+                alt="Tatis Jr. Fielding Pyramid"
+                style="width: 100%; margin-top: 0;">
+            </div>
+            <div class="column">
+                <img src="IMG_0180.jpg"
+                alt="Tatis Jr. Fielding Chart"
+                style="width: 100%; margin-top: 8%">
+            </div>
+        </div>
+        <p style="font-size: 32px; text-align:justify; margin-left: 50px; margin-right: 50px">
+            Fernando Tatis Jr. has one of the smoothest backhands and strongest arms in the infield. However, in 2019, his biggest weakness was his throwing errors.
+            14/18 errors are due to poor throws. With half as much field time, he has more throwing errors than any other SS. Why? It can vary from poor footwork leading to a rushed
+            throw to simply trying to make the throw on a play that the average SS can't even field. He can eliminate these errors by counting the hops to prepare your feet to be in
+            optimal position to make a strong and accurate throw. Shortening the duration between funneling the baseball and release will also drastically decrease throwing errors.
+            He's become a phenom before even playing 100 games, but in addition to his offensive capabilities, developing his defensive skills will make him an All-Star. 
+        </p>
+        <hr
+        style="border: 4px solid navy;
+        border-radius: 2px;
+        margin-top: 5%;
+        margin-bottom: 5%;">
+        </div>
+    
+        <style>
+        .row {
+            display: flex;
+        }
+    
+        .column {
+            flex: auto;
+            padding: 5px;
+        }
+        </style>
+    
+        <div class="project2">
+        <h3 style="font-size: 48px; font-weight:bolder; color: navy; text-align:center">Texas A&M Pitching 2019 compared to SEC</h3>
+        <h3 style="text-align:center; font-size: 28px; margin-bottom: 0;">March 8, 2020</h3>
+        <img src="IMG_0129.jpg"
+        alt="Strikeout/inning vs WHIP"
+        style="height: 75%; width: 75%; margin-top: 0;"
+        class="center">
+        <p style="font-size: 32px; text-align:justify; margin-left: 50px; margin-right: 50px">
+            This project is focused on my college's baseball team, Texas A&M University, in comparison to the rest of the Southeastern Conference.
+            In order to be the best, you must compare yourself to the rest and find where you stand in order to improve. I compiled the data of five of the best pitchers at Texas A&M 
+            and I lined them up against the best pitcher of each team in their conference in terms of Strikeouts per Inning. The graphic shows that those that have the highest K/inning 
+            and lowest WHIP (walks and hits per inning) are the most successful. Take for example, Asa Lacy (far left), who is one of the most dominating pitchers in baseball is a First-Team 
+            All American and was drafted fourth overall for nearly seven million dollars. 
+        </p>
+        <hr
+        style="border: 4px solid navy;
+        border-radius: 2px;
+        margin-top: 5%">
+    
+        <div class="project1">
+        <h3 style="font-size: 48px; color: navy; font-weight: bolder; text-align:center; margin-top:7%;">Correlation between Spin Rate and Movement</h3>
+        <h3 style="text-align:center; font-size:28px;">March 3, 2020</h3>
+        <img src="IMG_0118.jpg"
+        alt="RHP Curveball Sping Rate and Movement"
+        style="height: 75%; width: 75%;"
+        class="center">
+        <p style="font-size: 32px; text-align:justify; margin-left: 50px; margin-right: 50px">
+            This is my very first analytical project focusing on the correlation between curveball spin rate and movement for right-handed pitchers.
+            Spin rate is not the only factor that impacts movement, but it is a strong contributor to the forces acting on a baseball as it reaches the strikezone.
+            One of the main goals as a pitcher is to not let your opponent hit the baseball so it is crucial to optimize vertical and horizontal movement to consistently produce on the mound.
+        </p>
